@@ -17,7 +17,10 @@ nav ul{
     list-style-type: none;
 }
 
-
+button{
+    position: absolute;
+    left: 70%;
+}
 
 
 nav a{
@@ -207,3 +210,30 @@ footer{
     align-items: center;
 }
 
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .float-left,
+    .float-right {
+        float: none;
+        display: block;
+        margin: 1rem auto;
+    }
+
+    main {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 500px) {
+    header h1 {
+        font-size: 1.2rem;
+    }
+
+    nav a {
+        font-size: 0.9rem;
+        padding: 0.4rem;
+    }
+}
