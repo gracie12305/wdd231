@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="description" content="Dynamic web fundamentals by Amma course landing page ">
+    <meta name="author" content="Amma G. Bossman">
+    <link rel="stylesheet" href="styles/directory.css">
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
+
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="images/chamberimage.jpg" alt="Logo image" width="200">
+        <div class="logo">
+            <h1>Timber</h1>
+            <p>chamber of cormmerce</p>
+        </div>
+        <button id="menu">&#9776;</button>
+        
+        <nav>
+            <a href="#" class="action">Home</a></li>
+            <a href="#">Directory</a></li>
+            <a href="#">Join</a></li>
+            <a href="https://github.com/gracie12305/wdd231">Discover</a></li>
+        </nav>
+    </header>
+
+    <main>
+        <div class="hero">
+            <img src="images/heroimage2.jpg" alt="Hero Image of chamber" width="200">
+        </div>
+        <h1>Home</h1>
+        <section class="top-grid">
+            <section class="market">
+                <h2>Event</h2>
+                <p>Smal business networking mixer, to build peer support and collaboration</p>
+                <p>Date: 27 April 2025 at 1000hrs</p>
+                <p>Place: Liyola Community Center</p>
+            </section>
+
+            <section class="weather">
+                <h2>Current Weather</h2>
+                <img src="images/weather.png" alt="weather lpgo" width="100">
+                <p id="current-temp"></p>
+                <p id="high-low"></p>
+                <p id="humidity"></p>
+                <p id="sunrise-sunset"></p>
+            </section>
+
+            <section class="forecast">
+                <h2>Weather Forcast</h2>
+                <div id="forecast-container"></div>
+            </section>
+        </section>
+
+        <article>
+            <section>
+                <h3>Maria Botique</h3>
+                <img src="images/botiqueimg.png" alt="Maria Botique" width="100">
+                <p>Email: <a href="mailto:maria@example.com">maria@example.com</a></p>
+                <p>Phone: 555-1234</p>
+                <p><a href="https://mariaboutique.com" target="_blank">Visit Website</a></p>
+            </section>
+
+            <section>
+                <h3>Diego Investments</h3>
+                <img src="images/campanyimage.png"  alt="" width="100">
+                <p>Email: <a href="mailto:diegoInv@gmail.co.za">diegoInv@gmail.co.za</a></p>
+                <p>Phone: 578-3450</p>
+                <p><a href="https://diegoinvestments.co.za">Visit Website</a></p>
+            </section>
+
+            <section>
+                <h3>Reseacher Fransisco</h3>
+                <img src="images/researchimage.png" alt=" The reseacher" width="100">
+                <p>Email: <a href="mailto:info@fransisco.com">info@fransisco.com</a></p>
+                <p>Phone: 555-9012</p>
+                <p><a href="https://franstheresearch.com" target="_blank">Visit Website</a></p>
+            </section>
+        </article>
+        <div class="view-toggle">
+            <button id="gridBtn">🔳 Grid</button>
+            <button id="listBtn">📋 List</button>
+        </div>
+        
+        <section id="directory" class="grid"></section>
+    </main>
+    <footer>
+        <section class="footer">
+            <section>
+                <h4>Timbuku Chamber of Commerce</h4>
+                <p>10  Rue De La Paix</p>
+                <p>Timbuktu, Mali 999</p>
+                <p>info@timbuktucc.org</p>
+                <p>(223) 555-2300</p>
+            </section>
+
+            <section class="socials">
+                <img src="images/Linkein.png" alt="Profile image of Linkedin." width="50">
+                <img src="images/twitter.png" alt="Profile image of Twitter." width="50">
+                <img src="images/facebook.png" alt="Profile image of Facebook." width="50">
+
+            </section>
+            <section>
+                <p>WDD23 Class Project</p>
+                <p>Amma Bossman</p>
+                <p>&copy; <span id="currentyear"></span> Timbuku Chamber of Commerce</p>
+                <p id="lastModified"></p>
+            </section>
+        </section>
+    </footer>
+    
+</body>
+</html>

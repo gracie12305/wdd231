@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Timbuktu Traders",
+        "address": "101 Market Rd, Timbuktu",
+        "phone": "268-555-1234",
+        "website": "https://timbuktutraders.com",
+        "image": "timbuktutraders.png",
+        "membership": 3,
+        "description": "Specializing in local crafts and international exports."
+    },
+    {
+        "name": "Jovi T Tech",
+        "address": "202 Innovation Blvd, Timbuktu",
+        "phone": "268-555-5678",
+        "website": "https://saharatech.com",
+        "image": "saharatech.png",
+        "membership": 2,
+        "description": "Leading software and AI services in the region."
+    },
+    {
+        "name": "Nomadanis Spermarket",
+        "address": "303 Oasis St, Timbuktu",
+        "phone": "268-555-9012",
+        "website": "https://nomadsupermrket.com",
+        "image": "nomadmarket.png",
+        "membership": 1,
+        "description": "A cozy market offering traditional meals and drinks."
+    },
+    {
+        "name": "Sam Designs",
+        "address": "404 Art Ln, Timbuktu",
+        "phone": "268-555-3456",
+        "website": "https://samdesigns.com",
+        "image": "sammydesigns.png",
+        "membership": 2,
+        "description": "Creative studio specializing in graphic design."
+    },
+    {
+        "name": "Auto Motors",
+        "address": "505 Transport Rd, Timbuktu",
+        "phone": "268-555-7890",
+        "website": "https://oasismotors.com",
+        "image": "automotors.png",
+        "membership": 3,
+        "description": "Automobile sales and repairs."
+    },
+    {
+        "name": "Kiki Ana Bookstore",
+        "address": "606 Culture Ave, Timbuktu",
+        "phone": "555-2222",
+        "website": "https://kikibooks.com",
+        "image": "kikibooks.png",
+        "membership": 1,
+        "description": "Independent bookstore and cultural hub."
+    },
+    {
+        "name": "Dazy Financial",
+        "address": "707 Wealth St, Timbuktu",
+        "phone": "555-3333",
+        "website": "https://dazfinancial.com",
+        "image": "dazfinancial.png",
+        "membership": 2,
+        "description": "Financial and consulting services."
+    }
+]

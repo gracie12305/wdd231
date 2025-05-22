@@ -1,24 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-h1 {
-    font-size: 1.4rem;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
 body{
     font-family: "Roboto", sans-serif;
-    font-optical-sizing: auto;
     font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
+ 
 }
 
 nav{
-    display: grid;
     background-color: #5fee8e;
     margin: 0 auto;
     max-width: 800px;
@@ -29,7 +15,10 @@ nav ul{
     list-style-type: none;
 }
 
-
+button{
+    position: absolute;
+    left: 70%;
+}
 
 
 nav a{
@@ -100,11 +89,6 @@ header img {
 
 header span{
     align-items: center;
-}
-
-button{
-    position: absolute;
-    left: 90%;
 }
 
 
@@ -195,7 +179,10 @@ figcaption{
     color: #bf360c;
 }
 
-
+h1{
+    font-size: 1.4rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
  
  
 h2{
@@ -221,3 +208,30 @@ footer{
     align-items: center;
 }
 
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .float-left,
+    .float-right {
+        float: none;
+        display: block;
+        margin: 1rem auto;
+    }
+
+    main {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 500px) {
+    header h1 {
+        font-size: 1.2rem;
+    }
+
+    nav a {
+        font-size: 0.9rem;
+        padding: 0.4rem;
+    }
+}
