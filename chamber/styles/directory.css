@@ -72,8 +72,8 @@ footer{
     grid-template-columns: 2fr 1fr 1fr;
     gap: 1rem;
     padding: 1rem;
-    background-color: red;
-    color: #f2f2f2;
+    background-color: #cc0000;
+    color: #ffffff;
 }
 
 .top-grid section {
@@ -116,7 +116,13 @@ footer{
     font-family:serif;
 }
 
+footer p{
+    padding: 0;
+    margin: 1.5rem;
+}
+
 h4{
+    margin: 1.2rem;
     font-size: 1.2rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -185,6 +191,19 @@ h4{
     display: block;
     }
 
+.business-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+/*index.html css in chamber folder*/
+.section-both{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
 @media screen and (max-width: 600px) {
     header {

@@ -5,7 +5,7 @@
         "phone": "268-555-1234",
         "website": "https://timbuktutraders.com",
         "image": "timbuktutraders.png",
-        "membership": 3,
+        "membership": "gold",
         "description": "Specializing in local crafts and international exports."
     },
     {
@@ -13,8 +13,8 @@
         "address": "202 Innovation Blvd, Timbuktu",
         "phone": "268-555-5678",
         "website": "https://saharatech.com",
-        "image": "saharatech.png",
-        "membership": 2,
+        "image": "jovittech.jpg",
+        "membership": "silver",
         "description": "Leading software and AI services in the region."
     },
     {
@@ -22,8 +22,8 @@
         "address": "303 Oasis St, Timbuktu",
         "phone": "268-555-9012",
         "website": "https://nomadsupermrket.com",
-        "image": "nomadmarket.png",
-        "membership": 1,
+        "image": "nomadanissupermarket.png",
+        "membership": "bronze",
         "description": "A cozy market offering traditional meals and drinks."
     },
     {
@@ -31,8 +31,8 @@
         "address": "404 Art Ln, Timbuktu",
         "phone": "268-555-3456",
         "website": "https://samdesigns.com",
-        "image": "sammydesigns.png",
-        "membership": 2,
+        "image": "samdesigns.png",
+        "membership": "gold",
         "description": "Creative studio specializing in graphic design."
     },
     {
@@ -41,7 +41,7 @@
         "phone": "268-555-7890",
         "website": "https://oasismotors.com",
         "image": "automotors.png",
-        "membership": 3,
+        "membership": "silver",
         "description": "Automobile sales and repairs."
     },
     {
@@ -49,8 +49,8 @@
         "address": "606 Culture Ave, Timbuktu",
         "phone": "555-2222",
         "website": "https://kikibooks.com",
-        "image": "kikibooks.png",
-        "membership": 1,
+        "image": "kikianabookstore.jpg",
+        "membership": "bronze",
         "description": "Independent bookstore and cultural hub."
     },
     {
@@ -58,8 +58,8 @@
         "address": "707 Wealth St, Timbuktu",
         "phone": "555-3333",
         "website": "https://dazfinancial.com",
-        "image": "dazfinancial.png",
-        "membership": 2,
+        "image": "dazyfinancial.png",
+        "membership": "gold",
         "description": "Financial and consulting services."
     }
 ]
