@@ -1,82 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amma G. Bossman</title>
-    <meta name="description" content="Dynamic web fundamentals by Amma course landing page ">
+    <title>Timbuktu Chamber Of Commerce</title>
+    <meta name="description"
+        content="Timbuktu chamber of commerce wed page by Amma. Explore business events and opportunities to connect and grow.">
     <meta name="author" content="Amma G. Bossman">
-    <link rel="stylesheet" href="styles/home.css">
-    <script src="scripts/getdates.js" defer></script>
+    <link rel="stylesheet" href="styles/directory.css">
+    <script src="scripts/api-weather.js" defer></script>
+    <script src="scripts/container.js" defer></script>
+
+    <link rel="icon" href="favicon.ico">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+
+    <meta property="og:title" content="Timbuku Chamber of Commerce – Business Directory and Events">
+    <meta property="og:description"
+        content="Explore business listings, local events, and opportunities with the Timbuku Chamber of Commerce. Connect, grow, and thrive in our community.">
+    <meta property="og:image" content="images/heroimage2.jpg">
+    <meta property="og:url" content="https://gracie12305.github.io/wdd231/chamber">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Timbuku Chamber of Commerce">
+
+
 </head>
+
 <body>
     <header>
-        <div class="profile">
-            <img src="images/self.jpg" alt="Image of Amma" width="200">
-            <span class="name">Amma G. Bossman</span>
+        <img src="images/chamberimage.jpg" alt="Logo image" width="200">
+        <div class="logo">
+            <div class="hheading">
+                <p>Timbuktu</p>
+            </div>
+            <p>chamber of cormmerce</p>
         </div>
         <button id="menu">&#9776;</button>
 
         <nav>
-            <ul>
-                <li><a href="#" class="action">Home</a></li>
-                <li><a href="#">Chamber</a></li>
-                <li><a href="#">Final</a></li>l
-                <li><a href="https://github.com/gracie12305/wdd231">GitHub Profile</a></li>
-                <li><a href="https://www.linkedin.com/in/amma-bossman">Linkedin</a></li>
-            </ul>
+            <a href="#" class="action">Home</a>
+            <a href="#">Directory</a>
+            <a href="#">Join</a>
+            <a href="https://github.com/gracie12305/wdd231">Discover</a>
         </nav>
     </header>
 
     <main>
-        <h1>Home</h1>
-        <section class="page coursework">
-            <h2>Course Work</h2>
-            <div class="list">
-                <p>About Me Home Page</p>
-                <p>Project Rafting Site</p>
-                <p>Project Milestone</p>
-            </div>
+        <div class="hero">
+            <img src="images/heroimage2.jpg" alt="Chamber Hero Image" width="600" />
+            <a href="join.html" class="cta-button">Join the Chamber</a>
+        </div>
+        
+        <section class="section-both">
+            <section class="current-events">
+                <h2>Upcoming Events</h2>
+                <p>Small business networking mixer to build peer support and collaboration</p>
+                <p>Date: 27 April 2025 at 10:00 AM</p>
+                <p>Place: Liyola Community Center</p>
+            </section>
+            
+            <section class="weather">
+                <h2> Current Weather <span class="weather-icon">⛅</span></h2>
+                <p id="current-temp"></p>
+                <p id="current-desc"></p>
+                <div id="forecast-container"></div>
+            </section>
         </section>
         
-        <section class="page manzini">
-            <h2>Manzini,Eswatini</h2>
-            <figure>
-                <img src="images/hills.png" alt="The beautiful hills of Eswatini" width="200">
-                <figcaption>Eswatini hills</figcaption>
-            </figure>
+        <section class="spotlights">
+            <h2>Member Spotlights</h2>
+            <div id="spotlight-cards" class="spotlight-cards"></div>
         </section>
         
-        <section class="page certificate">
-            <h2>Web and Computer Programming Certificate</h2>
-            <nav class="navigation">
-                <a href="#">All</a>
-                <a href="#">CSE</a>
-                <a href="#">WDD</a>
-            </nav>
-            <div class="courses">
-                <p>CSE 110</p>
-                <p>WDD 130</p>
-                <p>CSE 111</p>
-                <p>CSE 210</p>
-                <p>WDD 131</p>
-                <p>WDD 231</p>
-            </div>
-            <p id="credits"></p>
-        </section>
-
+      
+      
     </main>
     <footer>
-        <p>
-            <span>&copy <span id="currentyear"></span> Amma G. Bossman Eswatini</span>
-            <img src="images/eswatiniflag.png" alt="Flag of Eswatini" width="50">
-        </p>
-        <p id="lastModified"></p>
+        <section class="footer">
+            <section>
+                <h4>Timbuku Chamber of Commerce</h4>
+                <p>10 Rue De La Paix</p>
+                <p>Timbuktu, Mali 999</p>
+                <p>info@timbuktucc.org</p>
+                <p>(223) 555-2300</p>
+            </section>
+
+            <section class="socials">
+                <img src="images/linkedin.png" alt="Profile image of Linkedin." width="50">
+                <img src="images/twitter.png" alt="Profile image of Twitter." width="50">
+                <img src="images/facebook.png" alt="Profile image of Facebook." width="50">
+
+            </section>
+            <section>
+                <p>WDD23 Class Project</p>
+                <p>Amma Bossman</p>
+                <p>&copy; <span id="currentyear"></span> Timbuku Chamber of Commerce</p>
+                <p id="lastModified"></p>
+            </section>
+        </section>
     </footer>
-    
+
 </body>
+
 </html>
