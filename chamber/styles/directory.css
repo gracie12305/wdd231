@@ -5,12 +5,37 @@ body {
 }
 
 header {
-    background-color: rgb(50, 60, 192);
-    color: whitesmoke;
+    background-color: #880000;
+    color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
+.logo .heading span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    /* optional for contrast */
+    text-transform: uppercase;
+    /* optional */
+}
+.logo span {
+    margin: 0;
+    /* Removes default spacing */
+    padding: 0;
+    /* Optional: remove padding if present */
+    font-family: serif;
+}
+
+/* Optional: add spacing YOU want */
+.logo .heading span{
+    margin-bottom: 0;
+    /* adjust this as needed */
+}
+
+
 
 .logo{
     position: absolute;
@@ -18,6 +43,7 @@ header {
 }
 
 h1{
+    display: none;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.5rem;
 
@@ -49,7 +75,27 @@ nav a:hover {
     background-color: #555;
 }
 
+nav a.active {
+    font-weight: bold;
+    color: #ff6347;
+}
 
+#nav-menu {
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+
+#nav-menu a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+}
+
+#nav-menu a:hover {
+    background-color: #555;
+}
 
 button {
     display: none;
@@ -59,6 +105,25 @@ button {
     width: 100%;
     height: auto;
     display: block;
+}
+
+/*to overlay the call to action button for chamber index.html*/
+.hero{
+    position: relative;
+    text-align: center;
+}
+
+.cta-button{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #0e157a;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
 header,
@@ -72,8 +137,8 @@ footer{
     grid-template-columns: 2fr 1fr 1fr;
     gap: 1rem;
     padding: 1rem;
-    background-color: #cc0000;
-    color: #ffffff;
+    background-color: #c26c6c;
+    color: #080808;
 }
 
 .top-grid section {
@@ -111,8 +176,8 @@ article section p{
 }
 
 footer{
-    background-color: rgb(50, 60, 192);
-    color: whitesmoke;
+    background-color: #8B0000;
+    color: #FFFFFF;
     font-family:serif;
 }
 
@@ -205,14 +270,140 @@ h4{
     grid-template-columns: 1fr 1fr;
 }
 
+.heading{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+}
+
+/* CSS for join.html, adding styling and animation to membersip-card*/
+.membership-cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    animation: fadeInCards 2s ease-in;
+}
+
+#membership-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background: #f9f9f9;
+    padding: 2rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    max-width: 400px;
+}
+
+#membership-form label {
+    font-weight: bold; 
+}
+
+#membership-form input,
+#membership-form select,
+#membership-form textarea {
+    padding: 0.3rem;
+    font-size: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#membership-form input[type="submit"] {
+    background-color: #2e3aa1;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0.75rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease; }
+
+#membership-form input[type="submit"]:hover {
+    background-color: #5662c0;
+}
+
+textarea{
+    width: 90%;
+    height: 150px;
+}
+
+.form-layout{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.membership-cards {
+    display: grid;
+    gap: 1rem;
+}
+
+.membership-cards .card{
+    background-color: rgb(104, 22, 22);
+    color: white;
+    border: 1px solid rgb(223, 171, 104);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgb(34, 10, 10);
+    animation: fadeInCards 1s ease;
+    text-align: center;
+    max-width: 400px;
+}
+
+.membership-cards .card a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: #FFF8DC;
+    text-decoration: underline;
+    font-weight: bold; 
+}
+
+@keyframes fadeInCards {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    } 
+}
+
+.membership-cards .card h3 {
+    margin-bottom: 0.5rem;
+}
+
+@keyframes fadeInCards{
+    from{opacity:0; transform: translateY(20px);}
+    to{opacity:1; transform: translateY(0);}
+}
+
+.animation-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.3rem;
+}
+
 @media screen and (max-width: 600px) {
     header {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 1rem;
+        position: relative;
+    }
+
+   
+
+    .section-both{
+        display: block;
+    }
+
+    .current-events,
+    .weather{
+        margin-bottom: 1rem;
+    }
+
+    body{ padding: 1rem;
+        margin: 0;
     }
 
     .logo {
+        margin-right: 8rem;
+        padding: 0.2rem;
         position: static;
         text-align: left;
     }
@@ -230,13 +421,15 @@ h4{
     }
 
     button#menu {
+        position: absolute;
+        top: 0.01rem;
+        right: 1rem;
         display: block;
         font-size: 2rem;
         background: none;
         border: none;
         color: white;
         cursor: pointer;
-        align-self: flex-end;
     }
 
     .top-grid {
@@ -263,6 +456,19 @@ h4{
         margin-left: 0;
         padding-left: 0;
     }
+
+    /* FOR JOINT.HTML MEMBERSHIP-CARDS*/
+    .membership-cards{
+        grid-template-columns: repeat(4 1fr);
+    }
+
+        .form-layout {
+            grid-template-columns: 1fr;
+        }
+    
+        .membership-cards {
+            grid-template-columns: 1fr;
+        }   
 }
 
 
