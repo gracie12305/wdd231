@@ -1,0 +1,47 @@
+body {
+    font-family: 'Monsterrat', sans-serif;
+    background-color: #FFF9F9;
+    color: #070606;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #014e01;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+header p{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 1rem;
+}
+
+.blackstars h1 {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: white;
+    color: #d60505;
+}
+
+h2,
+h3 {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #014e01;
+    margin-top: 60px;
+    font-style: italic;
+    text-align: center;
+    color: white;
+}
