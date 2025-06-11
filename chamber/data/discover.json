@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Lobamba Museum",
+        "address": "123 Lobamba ZL, Zulwini",
+        "description": "Explore exhibits showcasing the city's past.",
+        "image": "images/lobamba.jpg"
+    },
+    {
+        "name": "Green Gardens",
+        "address": "456 Greenhouse ZL, Zulwini",
+        "description": "Relax in nature with exotic plants and flowers.",
+        "image": "images/greengardens.webp"
+    },
+
+    {
+        "name": "Parranottis",
+        "address": "345 Gwane st, Manzini",
+        "description": "Dine with us, we have very specia; meals, from pizza to burgers.",
+        "image": "images/parranottis.webp"
+    },
+
+    {
+        "name": "Hilton Garden",
+        "address": "448 sheet st, Mbabane",
+        "description": "Very beautiful hotel for a wonderful vacation, spa day and more",
+        "image": "images/hiltongarden.webp"
+    },
+
+    {
+        "name": "Moutain View",
+        "address": "889 mdximba rt, Mbabane",
+        "description": "Explore the beauty of nature on the top of the moutain, Hicking snd relaxation. ",
+        "image": "images/mountainview.webp"
+    },
+
+    {
+        "name": "Mogi Botique Hotel ",
+        "address": "112 Motel St, Zulwini",
+        "description": "Everyday is perfect for a massage, picknic and photos",
+        "image": "images/mogibotiquehotel.webp"
+    },
+
+    {
+        "name": "Sibebe Rock",
+        "address": "778 Mountains Rt, Mbabane",
+        "description": "The biggest rock in Eswatini is a wonderful place to be, perfect for hicking, picknics photos and more",
+        "image": "images/sibeberock.webp"
+    },
+
+    {
+        "name": "Green Gardens",
+        "address": "456 Greenhouse ZL, Zulwini",
+        "description": "Relax in nature with exotic plants and flowers.",
+        "image": "images/greengardens.webp"
+    }
+]
