@@ -403,7 +403,7 @@ textarea {
     }
 
     main{
-        font-size: 0.7;
+        font-size: 0.7px;
     }
 
     .section-both {
@@ -463,7 +463,7 @@ textarea {
         grid-template-columns: 1fr;
         gap: 1rem;
         padding: 1rem;
-        font-size: 0.7;
+        font-size: 0.7px;
     }
 
     .socials {
@@ -488,7 +488,7 @@ textarea {
     }
 
     .membership-cards {
-        grid-template-columns: 1f;
+        grid-template-columns: 1fr;
 
     }
 
