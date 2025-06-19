@@ -25,7 +25,7 @@ header {
                 #014e01 55%,
                 #014e01 100%);
         clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
-        z-index: 1;
+        z-index: 0;
         overflow: hidden; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     
@@ -37,6 +37,9 @@ header {
     align-items: center;
     justify-content: center;
     gap: 10px;
+    z-index: 1;
+    padding: 1rem;
+    border-radius: 10px;
 }
 
 .blackstars img {
@@ -48,11 +51,14 @@ header {
 header p {
     font-family: 'Ubuntu', sans-serif;
     padding: 1rem;
+    position: relative;
+    z-index: 1;
 }
 
 .blackstars h1 {
     font-family: 'Ubuntu', sans-serif;
     color: #d60505;
+    margin: 0;
 }
 
 /* FADE-IN (Purpose Section) */
