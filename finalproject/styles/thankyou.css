@@ -1,0 +1,14 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    padding: 4rem;
+    background-color: #f0f8ff;
+}
+
+h1 {
+    color: #014e01;
+}
+
+p {
+    font-size: 1.2rem;
+}
